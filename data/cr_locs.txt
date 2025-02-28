@@ -1,0 +1,9 @@
+country_code	reg_code	name	location_type
+188	1	San José	4
+188	2	Alajuela	4
+188	3	Cartago	4
+188	4	Heredia	4
+188	5	Guanacaste	4
+188	6	Puntarenas	4
+188	7	Limón	4
+188	188	Costa Rica	0
