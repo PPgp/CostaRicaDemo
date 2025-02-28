@@ -1,6 +1,6 @@
-# Workshop on subnational population projections 
+# Workshop on subnational probabilistic population projections 
 
-**San José, Costa Rica, 3/19/2025**
+**Universidad de Costa Rica, San José, 3/19/2025**
 
 In this workshop, we will generate probabilistic population projections for the seven provinces of Costa Rica, including probabilistic projections of the individual components of population change, such as the total fertility rate, life expectancy at birth and net migration.
 
@@ -59,4 +59,4 @@ After these steps, your "bayespop\_workshop" directory should look like this:
 
 ## Workshop Material
 
-TODO: Add links here
+Link to be added soon.
