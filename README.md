@@ -43,7 +43,7 @@ The subnational datasets needed in this demo are available in the `data` directo
 Clone this repository to your computer, for example from the command line via
 
 ```
-git clone https://github.com/PPgp/CostaRica bayespop_workshop
+git clone https://github.com/PPgp/CostaRicaDemo bayespop_workshop
 ```
 
 It creates a directory "bayespop_workshop" which will be your working directory for this workshop. It contains the subdirectory "data" with the subnational datasets.  
