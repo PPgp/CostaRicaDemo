@@ -30,7 +30,7 @@ library(bayesPop)
 library(wpp2024)
 sessionInfo()
 ```
-You should see versions of the above package. Check that they are as follows:
+You should see versions of the above packages. Check that they are as follows:
 
 ```
 wpp2024_1.1-3  bayesPop_11.0-2   MortCast_2.8-0   bayesLife_5.3-1   bayesTFR_7.4-4 
@@ -46,12 +46,14 @@ Clone this repository to your computer, for example from the command line via
 git clone https://github.com/PPgp/CostaRicaDemo bayespop_workshop
 ```
 
-It creates a directory "bayespop_workshop" which will be your working directory for this workshop. It contains the subdirectory "data" with the subnational datasets.  
+Alternatively, one can clone it directly from an R Studio via File -> New Project -> Version Control -> Git. As repository URL enter https://github.com/PPgp/CostaRicaDemo and as Project directory name enter bayespop_workshop.
+
+Both of these alternatives create a directory "bayespop_workshop" which will be your working directory for this workshop. It contains the subdirectory "data" with the subnational datasets.  
 
 For projecting the total fertility rate and life expectancy at birth (e0), national probabilistic projections are needed and they will be placed into the subdirectory "data/wpp2024\_projections". They could be generated from scratch, but to save time, please download them from our [website](https://bayespop.csss.washington.edu/data) as follows:
 
-1. Download the [TFR](https://bayespop.csss.washington.edu/data/bayesTFR/TFR1simWPP2024.tgz) compressed file and unpack it (e.g. using 7-Zip or WinZip on Windows or "tar xvfz" on Unix-based systems) into the "bayespop_workshop/data/wpp2024\_projections" directory. It creates a subdirectory called "TFR1unc".
-3. Repeat the same with the [e0](https://bayespop.csss.washington.edu/data/bayesLife/e01simWPP2024.tgz) file. It creates a subdirectory called "e01".
+1. Download the [TFR](https://bayespop.csss.washington.edu/data/bayesTFR/TFR1simWPP2024.tgz) compressed file and unpack it (e.g. using 7-Zip or WinZip on Windows or "tar xvfz" on Unix-based systems) into the "data/wpp2024\_projections" directory. It creates a subdirectory called "TFR1unc".
+2. Repeat the same with the [e0](https://bayespop.csss.washington.edu/data/bayesLife/e01simWPP2024.tgz) file. It creates a subdirectory called "e01".
 
 After these steps, your "bayespop\_workshop" directory should look like this:
 
