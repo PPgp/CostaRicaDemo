@@ -13,7 +13,7 @@ To install packages needed in this demo, open your R application and type
 
 ```{r eval=FALSE}
 install.packages(c("bayesTFR", "bayesLife", "bayesPop", 
-					"MortCast", "bayesMig", "devtools"), 
+		"MortCast", "bayesMig", "devtools"), 
 				dependencies = TRUE)
 ```
 
@@ -60,6 +60,8 @@ For projecting the total fertility rate and life expectancy at birth (e0), natio
 After these steps, your "bayespop\_workshop" directory should look like this:
 
 <img src="figs/dirstruct.png" height="300"/>
+
+Congratulations! Now you're ready to follow along at the workshop.
 
 ## Workshop Material
 
