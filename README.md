@@ -12,8 +12,9 @@ The projections are generated using the programming language [R](https://cran.r-
 To install packages needed in this demo, open your R application and type
 
 ```{r eval=FALSE}
-install.packages(c("bayesTFR", "bayesLife", "bayesPop", "MortCast", "bayesMig", "devtools"), 
-					dependencies = TRUE)
+install.packages(c("bayesTFR", "bayesLife", "bayesPop", 
+					"MortCast", "bayesMig", "devtools"), 
+				dependencies = TRUE)
 ```
 
 The latest UN projections (WPP 2024) are available in the [wpp2024](https://github.com/PPgp/wpp2024) R package. One can install it via:
@@ -33,7 +34,8 @@ sessionInfo()
 You should see versions of the above packages. Check that they are as follows:
 
 ```
-wpp2024_1.1-3  bayesPop_11.0-2   MortCast_2.8-0   bayesLife_5.3-1   bayesTFR_7.4-4 
+wpp2024_1.1-3  bayesPop_11.0-2   MortCast_2.8-0   bayesLife_5.3-1   
+bayesTFR_7.4-4 
 ```
 
 
@@ -46,7 +48,7 @@ Clone this repository to your computer, for example from the command line via
 git clone https://github.com/PPgp/CostaRicaDemo bayespop_workshop
 ```
 
-Alternatively, one can clone it directly from an R Studio via File -> New Project -> Version Control -> Git. As repository URL enter https://github.com/PPgp/CostaRicaDemo and as Project directory name enter bayespop_workshop.
+Alternatively, one can clone it directly from an R Studio via File -> New Project -> Version Control -> Git. As repository URL enter https://github.com/PPgp/CostaRicaDemo and as Project directory name enter bayespop_workshop. Then click on "Create Project".
 
 Both of these alternatives create a directory "bayespop_workshop" which will be your working directory for this workshop. It contains the subdirectory "data" with the subnational datasets.  
 
