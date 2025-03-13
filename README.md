@@ -65,4 +65,4 @@ Congratulations! Now you're ready to follow along at the workshop.
 
 ## Workshop Material
 
-Link to be added soon.
+[Go to the workshop material](https://bayespop.csss.washington.edu/CostaRica2025)
